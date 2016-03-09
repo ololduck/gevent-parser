@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'gevent_parser'
+g = GeventParser::Parser.new
+g.read
